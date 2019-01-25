@@ -9,6 +9,7 @@ import {MaterialModule} from './material.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataService } from './data/data.service';
+import { AuthService } from './auth.service';
 
 
 
@@ -27,7 +28,7 @@ import { DataService } from './data/data.service';
     FlexLayoutModule,
     
   ],
-  providers: [DataService],
+  providers: [DataService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
