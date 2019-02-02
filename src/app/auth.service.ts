@@ -13,7 +13,7 @@ export class AuthService {
     clientID: 'YOu1j0p52pvvrPBRPP4K700HWnFDGZDO',
     domain: 'wains.auth0.com',
     responseType: 'token',
-    redirectUri: 'http://localhost:4200/',
+    redirectUri: 'https://angular-cms-ffae7.firebaseapp.com/',
     scope: 'openid'
   });
 
